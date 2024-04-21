@@ -8,7 +8,7 @@ import { getFirestore } from 'firebase/firestore/lite';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBpAC1FpexfcLnDD09zJtnWBAkNgIVfpFU",
+    apiKey: import.meta.env.VITE_FIREBASE_KEY,
     authDomain: "react-cursos-33d2b.firebaseapp.com",
     projectId: "react-cursos-33d2b",
     storageBucket: "react-cursos-33d2b.appspot.com",
